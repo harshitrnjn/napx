@@ -13,8 +13,33 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      keyframes: {
+        scroll: {
+          "0%": { transform: "translateX(102%)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+        logoScroll: {
+          to: { transform: "translateX(180%)" },
+          from: { transform: "translateX(-200%)" },
+        },
+        antilogoScroll: {
+          to: { transform: "translateX(-180%)" },
+          from: { transform: "translateX(200%)" },
+        },
+      },
+      animation: {
+        scroll: "scroll 30s linear infinite",
+        logoScroll:"logoScroll 50s linear infinite",
+        antilogoScroll:"antilogoScroll 50s linear infinite",
+      },
+      colors:{
+        customBlue:"#3A75DD",
+        customPurple:"#301B54"
+      },
     },
   },
   plugins: [],
 };
 export default config;
+
+// #4143DE

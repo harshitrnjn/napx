@@ -22,7 +22,7 @@ import twentyOne from "@/assests/PNG_Logo/twentyOne.png"
 import twentyTwo from "@/assests/PNG_Logo/twentyTwo.png"
 import twentyThree from "@/assests/PNG_Logo/twentyThree.png"
 import twentyFour from "@/assests/PNG_Logo/twentyFour.png"
-import twentyFive from "@/assests/PNG_Logo/twentyFive.png"
+import TwentyFive from "@/assests/PNG_Logo/TwentyFive.png"
 import twentySix from "@/assests/PNG_Logo/twentySix.png"
 import twentySeven from "@/assests/PNG_Logo/twentySeven.png"
 import twentyEight from "@/assests/PNG_Logo/twentyEight.png"
@@ -125,7 +125,7 @@ export const logoData=[
     },
     {
         id:25,
-        logo:twentyFive,
+        logo:TwentyFive,
     },
     {
         id:26,

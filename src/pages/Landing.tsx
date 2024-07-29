@@ -1,17 +1,17 @@
-"use client";
+"use client"
 import Image from "next/image";
-import React, { useState } from "react";
+import React from "react";
 import Image1 from "@/assests/Image1.png";
 import Product2 from "@/assests/Product2.jpg";
 import ScrollingText from "@/components/ScrollingText";
 import TextGenerator from "@/components/TextGenerator";
-import { useGSAP } from "@gsap/react";
+// import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 // import gsap from "gsap";
 
 const Landing = () => {
-  gsap.registerPlugin(ScrollTrigger);
+  // gsap.registerPlugin(ScrollTrigger);
 
   return (
     <div className="sm:w-full w-[100vw] h-screen  fixed -z-10  text-white  bg-black sm:px-0 px-1">

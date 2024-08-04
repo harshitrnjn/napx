@@ -3,9 +3,7 @@ import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import React from 'react'
 
 const TextGenerator = () => {
-    const words = `Tissue and toilet paper are vital for hygiene and cleanliness. Tissue paper is versatile, used for wiping surfaces and personal use, while toilet paper is essential for sanitation, preventing infections, and maintaining comfort. Both play a crucial role in reducing the spread of germs and promoting health.....
-    "NAPX: Embrace Clean Living."
-    `;
+    const words = "Elevate your shelves with NAPX, the pinnacle of hygiene and convenience. Offer your customers the unparalleled experience of softness and strength, the ultimate in cleanliness and care. Stock NAPX and let your sales soar with a product that truly stands out. NAPX: XACTLY WHAT YOU NEED";
   return (
     <TextGenerateEffect words={words} />
   )

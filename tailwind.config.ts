@@ -19,12 +19,12 @@ const config: Config = {
           "100%": { transform: "translateX(-100%)" },
         },
         logoScroll: {
-          to: { transform: "translateX(180%)" },
-          from: { transform: "translateX(-200%)" },
+          to: { transform: "translateX(150%)" },
+          from: { transform: "translateX(-100%)" },
         },
         antilogoScroll: {
-          to: { transform: "translateX(-180%)" },
-          from: { transform: "translateX(200%)" },
+          to: { transform: "translateX(-150%)" },
+          from: { transform: "translateX(75%)" },
         },
       },
       animation: {

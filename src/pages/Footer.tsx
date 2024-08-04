@@ -4,7 +4,7 @@ import Logo from "@/assests/Logo.png"
 
 const Blank2 = () => {
   return (
-    <div className='sm:w-full w-[100vw] sm:h-[20vw] h-[60vh] bg-black text-zinc-400/75 p-5 flex flex-col'>
+    <div className='sm:w-full w-[100vw] lg:h-[20vw] md:h-[30vh] h-[60vh] bg-black text-zinc-400/75 p-5 flex flex-col'>
       <div className='up w-full sm:h-[85%] h-full flex sm:flex-row flex-col  justify-evenly items-center  sm:gap-y-5
       '>
         <div className='logo sm:w-[18%] sm:h-[13vw] w-[45%] h-[15vh] '>
@@ -15,7 +15,7 @@ const Blank2 = () => {
           />
         </div>
         <div className='tags w-[70%] sm:h-[13vw] h-[35%] flex justify-center items-center sm:gap-x-3  gap-x-[15vw]'>
-          <div className='tagBox w-[16vw] h-full   flex flex-col justify-center items-center sm:text-lg font-semibold sm:leading-[2vw] leading-[3.5vh] text-sm' >
+          <div className='tagBox w-[16vw] h-full   flex flex-col justify-center items-center sm:text-lg font-semibold lg:leading-[2vw] leading-[3.5vh] text-sm' >
             <ul>
               <li>About</li>
               <li>Theme</li>
@@ -23,7 +23,7 @@ const Blank2 = () => {
               <li>Inspiration</li>
             </ul>
           </div>
-          <div className='tagBox w-[16vw] h-full  flex flex-col justify-center items-center sm:text-lg font-semibold sm:leading-[2vw] leading-[3.5vh] text-sm' >
+          <div className='tagBox w-[16vw] h-full  flex flex-col justify-center items-center sm:text-lg font-semibold lg:leading-[2vw] leading-[3.5vh] text-sm' >
               <ul>
                 <li>PRESS</li>
                 <li>INSTAGRAM</li>
@@ -32,7 +32,7 @@ const Blank2 = () => {
                 <li>LINKEDIN</li>
               </ul>
           </div>
-          <div className='tagBox w-[16vw] h-full  flex flex-col justify-center items-center sm:text-lg font-semibold sm:leading-[2vw] leading-[3.5vh] text-sm' >
+          <div className='tagBox w-[16vw] h-full  flex flex-col justify-center items-center sm:text-lg font-semibold lg:leading-[2vw] leading-[3.5vh] text-sm' >
             <ul>
               <li>FAQ</li>
               <li>HELP CENTER</li>

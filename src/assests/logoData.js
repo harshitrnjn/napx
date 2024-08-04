@@ -119,24 +119,24 @@ export const logoData=[
         id:23,
         logo:twentyThree,
     },
-    {
-        id:24,
-        logo:twentyFour,
-    },
-    {
-        id:25,
-        logo:TwentyFive,
-    },
-    {
-        id:26,
-        logo:twentySix,
-    },
-    {
-        id:27,
-        logo:twentySeven,
-    },
-    {
-        id:28,
-        logo:twentyEight,
-    },
+    // {
+    //     id:24,
+    //     logo:twentyFour,
+    // },
+    // {
+    //     id:25,
+    //     logo:TwentyFive,
+    // },
+    // {
+    //     id:26,
+    //     logo:twentySix,
+    // },
+    // {
+    //     id:27,
+    //     logo:twentySeven,
+    // },
+    // {
+    //     id:28,
+    //     logo:twentyEight,
+    // },
 ]

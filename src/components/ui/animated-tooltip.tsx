@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import React, { useState } from "react";
 import {
   motion,
@@ -16,7 +16,7 @@ export const AnimatedTooltip = ({
     id: number;
     name: string;
     designation: string;
-    // image: string;
+    image: StaticImageData;
   }[]; 
   
 }) => {
@@ -85,9 +85,14 @@ export const AnimatedTooltip = ({
             alt={item.name}
             className="object-cover !m-0 !p-0 object-top rounded-full h-14 w-14 border-2 group-hover:scale-105 group-hover:z-30 border-white  relative transition duration-500"
           /> */}
-          <div className="sm:w-[12vw] sm:h-[12vw] rounded-full border-2 flex flex-col justify-center items-center border-customBlue text-customBlue text-2xl font-bold">
-                <h1>{item.name}</h1>
-                <h1> {item.designation} </h1>
+          <div className="lg:w-[12vw] lg:h-[12vw] rounded-full border-2 flex flex-col justify-center items-center border-customBlue text-customBlue text-2xl font-bold overflow-hidden w-[17vw] h-[17vw]">
+                
+                <Image
+                src={item.image}
+                alt={`${item.image}`}
+                className="w-full h-full object-cover mix-blend-color-dodge"
+                />
+                 
           </div>
         </div>
       ))}

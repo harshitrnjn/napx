@@ -20,7 +20,7 @@ const Blank = () => {
   // })
 
   return (
-    <div className='w-full h-[100vh]'>
+    <div className='w-full h-[95vh] sm:h-[97vh]'>
       <div className='nav fixed w-full top-0 z-20'>
       <Navbar/>
       </div>

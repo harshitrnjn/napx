@@ -13,17 +13,17 @@ const Four = () => {
         <h1 className="text-center sm:text-7xl text-[11vw]   tracking-tight font-semibold text-customBlue ">
           OUR PRODUCTS
         </h1>
-        <div className="w-full sm:h-[25vw] h-[360vh] flex sm:flex-row flex-col justify-center gap-x-[4vw]  items-center gap-y-12 sm:gap-y-0">
+        <div className="w-full sm:h-[25vw] h-[360vh] flex lg:flex-row flex-col justify-center gap-x-[4vw]  items-center gap-y-12 sm:gap-y-0  sm:px-7 ">
           {ProductData.map((product) => (
             <div
-              className="container sm:w-[25vw] w-[75vw] h-[90vw] sm:h-[20vw] bg-white flex flex-col justify-center items-center sm:gap-y-2 gap-y-5 hover:cursor-pointer shadow-md"
+              className="container sm:w-[25vw] w-[75vw] h-[90vw] sm:h-[20vw] flex flex-col justify-center items-center sm:gap-y-2 gap-y-5 hover:cursor-pointer"
             >
               <Image
                 src={product.src}
                 alt="image_404"
                 width={500}
                 height={500}
-                className="img sm:w-[12vw] sm:h-[12vw] w-[85%] h-[75%] object-cover rounded-2xl"
+                className="img sm:w-full sm:h-full w-[85%] h-[75%] object-cover rounded-2xl"
               />
               <h1 className="sm:text-lg text-2xl font-semibold text-customBlue">
                 {product.name}

@@ -3,8 +3,8 @@ import React from 'react'
 
 const Three = () => {
   return (
-    <div className='sm:w-full sm:h-screen bg-white  relative w-[100vw] h-[125vh]'>
-      <div className='w-full sm:h-[23vw] h-[50vh] flex  justify-center items-center '>
+    <div className='sm:w-full lg:h-screen md:h-[75vh] bg-white  relative w-[100vw] h-[125vh]'>
+      <div className='w-full lg:h-[23vw] md:h-[30vh] h-[50vh] flex  justify-center items-center'>
       <Circle/>
      </div>
      <div className='w-full sm:h-[22vw]  flex flex-col h-[110vh]  items-center sm:gap-y-5 sm:mt-8 mt-10 text-customBlue gap-y-[4vh]

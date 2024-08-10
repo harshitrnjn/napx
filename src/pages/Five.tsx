@@ -24,7 +24,7 @@ const Five = () => {
                     key={img.id}
                     src={img.logo}
                     alt={`${img.id}`}
-                    className="lg:w-[7vw] lg:h-[7vw] md:w-[12vw] md:h-[12vw] w-[20vw] h-[20vw] object-contain "
+                    className="lg:w-[7vw] lg:h-[7vw] md:w-[12vw] md:h-[12vw] w-[20vw] h-[20vw] object-contain shadow-xl"
                   />
                 </>
               ))}
@@ -34,7 +34,7 @@ const Five = () => {
                     key={img.id}
                     src={img.logo}
                     alt={`${img.id}`}
-                    className="lg:w-[7vw] lg:h-[7vw] md:w-[12vw] md:h-[12vw] w-[20vw] h-[20vw] object-contain "
+                    className="lg:w-[7vw] lg:h-[7vw] md:w-[12vw] md:h-[12vw] w-[20vw] h-[20vw] object-contain shadow-xl"
                   />
                 </>
               ))}
@@ -51,7 +51,7 @@ const Five = () => {
                     key={img.id}
                     src={img.logo}
                     alt={`${img.id}`}
-                    className="lg:w-[7vw] lg:h-[7vw] md:w-[12vw] md:h-[12vw] w-[20vw] h-[20vw] object-contain "
+                    className="lg:w-[7vw] lg:h-[7vw] md:w-[12vw] md:h-[12vw] w-[20vw] h-[20vw] object-contain shadow-xl"
                   />
                 </>
               ))}
@@ -61,7 +61,7 @@ const Five = () => {
                     key={img.id}
                     src={img.logo}
                     alt={`${img.id}`}
-                    className="lg:w-[7vw] lg:h-[7vw] md:w-[12vw] md:h-[12vw] w-[20vw] h-[20vw] object-contain "
+                    className="lg:w-[7vw] lg:h-[7vw] md:w-[12vw] md:h-[12vw] w-[20vw] h-[20vw] object-contain shadow-xl"
                   />
                 </>
               ))}

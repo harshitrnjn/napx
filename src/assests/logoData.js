@@ -17,7 +17,7 @@ import sixteen from "@/assests/PNG_Logo/sixteen.png"
 import seventeen from "@/assests/PNG_Logo/seventeen.png"
 import eighteen from "@/assests/PNG_Logo/eighteen.png"
 import ninteen from "@/assests/PNG_Logo/nineteen.png"
-import twenty from "@/assests/PNG_Logo/twenty.png"
+// import twenty from "@/assests/PNG_Logo/twenty.png"
 import twentyOne from "@/assests/PNG_Logo/twentyOne.png"
 import twentyTwo from "@/assests/PNG_Logo/twentyTwo.png"
 import twentyThree from "@/assests/PNG_Logo/twentyThree.png"
@@ -103,10 +103,7 @@ export const logoData=[
         id:19,
         logo:ninteen,
     },
-    {
-        id:20,
-        logo:twenty,
-    },
+    
     {
         id:21,
         logo:twentyOne,
@@ -119,24 +116,5 @@ export const logoData=[
         id:23,
         logo:twentyThree,
     },
-    // {
-    //     id:24,
-    //     logo:twentyFour,
-    // },
-    // {
-    //     id:25,
-    //     logo:TwentyFive,
-    // },
-    // {
-    //     id:26,
-    //     logo:twentySix,
-    // },
-    // {
-    //     id:27,
-    //     logo:twentySeven,
-    // },
-    // {
-    //     id:28,
-    //     logo:twentyEight,
-    // },
+    
 ]

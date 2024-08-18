@@ -5,7 +5,7 @@ import address from "@/assests/address.png";
 
 const Blank2 = () => {
   return (
-    <div className="sm:w-full w-[100vw] lg:h-[20vw] md:h-[30vh] h-[45vh] bg-black text-zinc-400/75 p-5 flex flex-col">
+    <div className="sm:w-full w-[100vw] lg:h-[15vw] md:h-[25vh] h-[45vh] bg-black text-zinc-400/75 p-5 flex flex-col">
       <div
         className="up w-full sm:h-[85%] h-full flex sm:flex-row flex-col  justify-evenly items-center  sm:gap-y-5
        "
@@ -21,14 +21,14 @@ const Blank2 = () => {
           />
         </div>
       </div>
-      <div className="down w-full h-[15%] flex justify-between items-center sm:px-[8vw] px-0 sm:text-lg text-xs ">
+      {/* <div className="down w-full h-[15%] flex justify-between items-center sm:px-[8vw] px-0 sm:text-lg text-xs ">
         <h1>LOGO &copy; 2024 </h1>
         <div className="flex justify-center items-center sm:gap-x-[4vw] gap-x-2">
           <h1>CREATOR TERM</h1>
           <h1>PRIVACY POLICY</h1>
           <h1>COOKIES POLICY</h1>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

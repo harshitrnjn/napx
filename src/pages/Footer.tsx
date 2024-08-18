@@ -5,19 +5,19 @@ import address from "@/assests/address.png";
 
 const Blank2 = () => {
   return (
-    <div className="sm:w-full w-[100vw] lg:h-[20vw] md:h-[30vh] h-[60vh] bg-black text-zinc-400/75 p-5 flex flex-col">
+    <div className="sm:w-full w-[100vw] lg:h-[20vw] md:h-[30vh] h-[45vh] bg-black text-zinc-400/75 p-5 flex flex-col">
       <div
         className="up w-full sm:h-[85%] h-full flex sm:flex-row flex-col  justify-evenly items-center  sm:gap-y-5
-      "
+       "
       >
         <div className="logo sm:w-[18%] sm:h-[13vw] w-[45%] h-[15vh] ">
           <Image src={Logo} alt="Logo_404" className="w-full h-full" />
         </div>
-        <div className="tags w-[70%] sm:h-[13vw] h-[35%] flex justify-end items-center ">
+        <div className="tags w-full sm:w-[70%] sm:h-[13vw] h-[35%] flex justify-end items-center">
           <Image
             src={address}
             alt="404"
-            className="w-[63%] h-[70%] object-contain"
+            className="sm:w-[63%] sm:h-[70%] w-full h-full object-contain"
           />
         </div>
       </div>

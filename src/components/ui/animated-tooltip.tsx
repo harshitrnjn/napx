@@ -87,11 +87,13 @@ export const AnimatedTooltip = ({
           /> */}
           <div className="lg:w-[12vw] lg:h-[12vw] rounded-full border-2 flex flex-col justify-center items-center border-customBlue text-customBlue text-2xl font-bold overflow-hidden w-[17vw] h-[17vw]">
                 
-                <Image
+                {/* <Image
                 src={item.image}
                 alt={`${item.image}`}
                 className="w-full h-full object-cover mix-blend-color-dodge"
-                />
+                /> */}
+                <h1>{item.name}</h1>
+                <h1> {item.designation} </h1>
                  
           </div>
         </div>

@@ -19,12 +19,12 @@ const Circle = ({move}:any) => {
           id: 2,
           name: "100%",
           image:logo2,
-          designation: "HYGIENE",
+          designation: "GENUINE",
         },
         {
           id: 3,
           name: "100%",
-          designation: "HYGIENE",
+          designation: "RELIABLE",
           image:logo3,
         },
         {
@@ -36,13 +36,13 @@ const Circle = ({move}:any) => {
         {
           id: 5,
           name: "100%",
-          designation: "HYGIENE",
+          designation: "GENUINE",
           image:logo1,
         },
         {
           id: 6,
           name: "100%",
-          designation: "HYGIENE",
+          designation: "RELIABLE",
           image:logo2,
         },
       ];

@@ -1,5 +1,6 @@
 import React from "react";
 import { logoData } from "@/assests/logoData.js";
+import {logoDataL2} from "@/assests/logoDataL2.js"
 import Image from "next/image";
 import Link from "next/link";
 import { MdMailOutline } from "react-icons/md";
@@ -38,13 +39,6 @@ const Five = () => {
                   />
                 </>
               ))}
-            </div>
-          </div>
-          <div className="w-full lg:h-[9vw] md:h-[15vh] h-[25vw] bg-white flex justify-center items-center">
-            <div
-              className="w-full h-[45%]  flex justify-center items-center gap-x-5 
-          aspect-square whitespace-nowrap animate-antilogoScroll"
-            >
               {logoData.map((img) => (
                 <>
                   <Image
@@ -55,7 +49,34 @@ const Five = () => {
                   />
                 </>
               ))}
-               {logoData.map((img) => (
+            </div>
+          </div>
+          <div className="w-full lg:h-[9vw] md:h-[15vh] h-[25vw] bg-white flex justify-center items-center">
+            <div
+              className="w-full h-[45%]  flex justify-center items-center gap-x-5 
+          aspect-square whitespace-nowrap animate-antilogoScroll"
+            >
+              {logoDataL2.map((img) => (
+                <>
+                  <Image
+                    key={img.id}
+                    src={img.logo}
+                    alt={`${img.id}`}
+                    className="lg:w-[7vw] lg:h-[7vw] md:w-[12vw] md:h-[12vw] w-[20vw] h-[20vw] object-contain shadow-xl"
+                  />
+                </>
+              ))}
+               {logoDataL2.map((img) => (
+                <>
+                  <Image
+                    key={img.id}
+                    src={img.logo}
+                    alt={`${img.id}`}
+                    className="lg:w-[7vw] lg:h-[7vw] md:w-[12vw] md:h-[12vw] w-[20vw] h-[20vw] object-contain shadow-xl"
+                  />
+                </>
+              ))}
+              {logoDataL2.map((img) => (
                 <>
                   <Image
                     key={img.id}

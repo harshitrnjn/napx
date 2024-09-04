@@ -19,18 +19,18 @@ const config: Config = {
           "100%": { transform: "translateX(-100%)" },
         },
         logoScroll: {
-          to: { transform: "translateX(125%)" },
-          from: { transform: "translateX(-100%)" },
+          to: { transform: "translateX(80%)" },
+          from: { transform: "translateX(-90%)" },
         },
         antilogoScroll: {
-          to: { transform: "translateX(-125%)" },
-          from: { transform: "translateX(75%)" },
+          to: { transform: "translateX(-90%)" },
+          from: { transform: "translateX(90%)" },
         },
       },
       animation: {
         scroll: "scroll 30s linear infinite",
-        logoScroll:"logoScroll 50s linear infinite",
-        antilogoScroll:"antilogoScroll 50s linear infinite",
+        logoScroll:"logoScroll 10s linear infinite",
+        antilogoScroll:"antilogoScroll 10s linear infinite",
       },
       colors:{
         customBlue:"#3A75DD",

@@ -7,6 +7,7 @@ import Link from "next/link";
 const Four = () => {
   return (
     <div
+      // ref={sectionRef}
       className="sm:w-full w-[100vw] lg:h-[90vh] md:h-[175vh] h-[280vh] bg-white flex flex-col border-t-2 border-b-2 pt-12
     "
     >

@@ -1,11 +1,18 @@
-import React from "react";
+"use client"
+import React, { useRef } from "react";
 import Image from "next/image";
 import Logo from "@/assests/Logo.png";
 import Link from "next/link";
-import { CiMenuFries } from "react-icons/ci";
 
 
 const Navbar = () => {
+
+  // const sectionRef = useRef(null);
+
+  // const scrollToSection = () => {
+  //   sectionRef.current.scrollIntoView({ behavior: "smooth" });
+  // };
+
   return (
     <div
       className="w-full lg:h-[5vw] md:h-[10vw] sm:py-[1vw] sm:px-[3vw]  flex items-center justify-between
@@ -22,8 +29,8 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="flex lg:text-[1vw] md:text-[2vw] font-semibold text-white text-[3.5vw] gap-x-12 sm:gap-x-[4vw] sm:mb-0 mb-3">
-        <h1>PRODUCTS</h1>
-        <Link href={'https://online.fliphtml5.com/lxbqg/xsxs/#p=2'}>DISCOVER</Link>
+        <Link href={'/catalouge'}>PRODUCTS</Link>
+        {/* <Link >DISCOVER</Link> */}
         <Link href={`/contact`}>CONTACT US</Link>
       </div>
      
@@ -32,3 +39,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// https://online.fliphtml5.com/lxbqg/xsxs/#p=2

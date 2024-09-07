@@ -23,7 +23,7 @@ const Navbar = () => {
       </div>
       <div className="flex lg:text-[1vw] md:text-[2vw] font-semibold text-white text-[3.5vw] gap-x-12 sm:gap-x-[4vw] sm:mb-0 mb-3">
         <h1>PRODUCTS</h1>
-        <h1>DISCOVER</h1>
+        <Link href={'https://online.fliphtml5.com/lxbqg/xsxs/#p=2'}>DISCOVER</Link>
         <Link href={`/contact`}>CONTACT US</Link>
       </div>
      

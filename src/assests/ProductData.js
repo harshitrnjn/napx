@@ -3,6 +3,8 @@ import Product2 from "@/assests/Product2.jpg";
 import Product3 from "@/assests/Product3.jpg";
 import Image1 from "@/assests/Image1.png";
 import Product4 from "@/assests/Product4.jpg";
+import stage_jackpot from "@/assests/stage_jackpot.jpg"
+import mFold from "@/assests/mFold.png"
 
 export const ProductData = [
   {
@@ -12,22 +14,22 @@ export const ProductData = [
   },
   {
     id: 2,
-    src: Product2,
-    name: "NAPX FACE TISSUE",
+    src: stage_jackpot,
+    name: "JACKPOT TISSUE",
   },
   {
     id: 3,
-    src: Product3,
-    name: "NAPX TOILET PAPER",
+    src: Product2,
+    name: "NAPX FACIAL TISSUE",
   },
   {
     id: 4,
-    src: Image1,
-    name: "NAPX TISSUE",
+    src: Product3,
+    name: "NAPX TOILET ROLLS",
   },
   {
     id: 5,
-    src: Product4,
-    name: "NAPX TISSUE",
+    src: mFold,
+    name: "NAPX MFOLD NAPKINS",
   },
 ];

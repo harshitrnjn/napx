@@ -1,9 +1,11 @@
 import Form from '@/components/Form'
 import React from 'react'
+import styles from "./contact.module.css"
+
 
 const page = () => {
   return (
-    <div className='w-full h-screen bg-customBlue flex justify-center items-center'>
+    <div className={styles.background}>
       <Form/>
     </div>
   )

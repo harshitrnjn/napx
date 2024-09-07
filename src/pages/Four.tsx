@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
 import { ProductData } from "@/assests/ProductData";
+import Link from "next/link";
 
 const Four = () => {
   return (
@@ -31,9 +32,9 @@ const Four = () => {
             </div>
           ))}
         </div>
-        <button className="lg:mb-5 md:mb-[10vw] mb-10 sm:px-7 sm:py-4 px-6 py-4 bg-customBlue text-white sm:text-xl text-xl rounded-full flex justify-center items-center gap-2 hover:scale-105 transition-all duration-100">
+       <Link href={"https://online.fliphtml5.com/lxbqg/xsxs/#p=2"}> <button className="lg:mb-5 md:mb-[10vw] mb-10 sm:px-7 sm:py-4 px-6 py-4 bg-customBlue text-white sm:text-xl text-xl rounded-full flex justify-center items-center gap-2 hover:scale-105 transition-all duration-100">
           Explore More <FaArrowRight />
-        </button>
+        </button></Link>
       </div>
     </div>
   );

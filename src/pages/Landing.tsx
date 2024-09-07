@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image";
 import React from "react";
-import Image1 from "@/assests/Image1.png";
+import Doddle from "@/assests/Doddle.jpg";
 import collage from "@/assests/collage.jpg";
 import ScrollingText from "@/components/ScrollingText";
 import TextGenerator from "@/components/TextGenerator";
@@ -17,9 +17,8 @@ const Landing = () => {
         </h1>
         <Image
           className="img1 rounded-xl block sm:block lg:w-[15vw] lg:h-[10vw] md:h-[20vw] md:w-[20vw] h-[25vw] w-[35vw] object-cover"
-          src={Image1}
+          src={Doddle}
           alt="Product_image"
-          // height={10}
         />
       </div>
       <div className="scrollText sm:w-full w-full h-[2.5vw] py-4 lg:py-2 md:py-4 mt-5 flex items-center border-y-2 sm:border-zinc-800 border-zinc-500 md:mt-[5vh] lg:mt-10">

@@ -1,13 +1,15 @@
 import Image from "next/image";
 import React from "react";
 import Product2 from "@/assests/Product2.jpg";
+import Product1 from "@/assests/Product1.jpg";
+
 
 const One = () => {
   return (
     <div className="sm:w-full w-screen h-[75vh] lg:h-[90vh] md:h-[85vh] bg-customBlue sm:rounded-t-[50px] relative  flex justify-center items-center rounded-t-[25px]  border-b-2 border-zinc-300/25 ">
       <div className=" lg:w-[85%] w-[95%] lg:h-[95%]  flex items-center justify-center flex-col lg:flex-row  gap-[5vw] lg:pl-[7vw] pl-0 lg:mt-[0vw]  md:mt-[5vh] mt-[22vw]">
         <Image
-          src={Product2}
+          src={Product1}
           alt="product_image_404"
           className="lg:w-[33vw] lg:h-[30vw] md:w-[75vw] md:h-[50vw] w-full object-cover rounded-[25px] "
         />

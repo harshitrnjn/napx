@@ -10,7 +10,7 @@ const Five = () => {
   return (
     <div className="sm:w-full w-[100vw] md:h-[80vh] lg:h-[120vh] h-[100vh]  bg-customBlue  flex-col flex lg:justify-center  items-center lg:gap-y-5 pt-12 sm:pt-0 ">
       <div className="w-full sm:h-[30vw] h-[40vh] flex flex-col  items-center sm:gap-y-10 gap-y-5  ">
-        <h1 className="sm:text-7xl text-[11vw] text-white tracking-tighter mt-[8vw] font-semibold">
+        <h1 className="sm:text-7xl text-[11vw] text-white tracking-tighter mt-[5vw] font-semibold">
           OUR CLIENTS
         </h1>
         <div className="flex flex-col justify-center items-center gap-y-0 w-full h-[50vh]">

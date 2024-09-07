@@ -2,6 +2,10 @@ import Image1 from "@/assests/Image1.png";
 import Product1 from "@/assests/Product1.jpg";
 import Product3 from "@/assests/Product3.jpg";
 import PageTwoRight from "@/assests/PageTwoRight.jpg";
+import Product2 from "@/assests/Product2.jpg";
+import stage_jackpot from "@/assests/stage_jackpot.jpg"
+import mFold from "@/assests/mFold.png"
+
 
 
 export const datas = [
@@ -13,7 +17,7 @@ export const datas = [
         position:"right",
         bgColor: "bg-customBlue",
         textColor:"text-white",
-        src:Product1
+        src:stage_jackpot
     },
     {
         id:2,
@@ -23,7 +27,7 @@ export const datas = [
         position:"left",
         bgColor: "bg-white",
         textColor:"text-customBlue",
-        src:Product3
+        src:Product2
     },
     {
         id:3,
@@ -33,7 +37,7 @@ export const datas = [
         position:"right",
         bgColor: "bg-customBlue",
         textColor:"text-white",
-        src:PageTwoRight
+        src:mFold
     },
 
 ]

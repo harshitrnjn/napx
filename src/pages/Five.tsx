@@ -103,9 +103,9 @@ const Five = () => {
               </span>
               : info@napx.in
             </h1>
-            <h1 className="flex items-center md:text-2xl lg:text-xl text-lg">
+            <h1 className="flex items-center md:text-2xl lg:text-md text-lg">
               {" "}
-              <span className="text-3xl">
+              <span className="text-2xl">
                 <IoLocationOutline />
               </span>
               : H.B.Road, Kokar, Ranchi, Jharkhand-834001

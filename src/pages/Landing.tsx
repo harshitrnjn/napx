@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image";
 import React from "react";
-import Doddle from "@/assests/Doddle.jpg";
+import Image1 from "@/assests/Image1.png"
 import collage from "@/assests/collage.jpg";
 import ScrollingText from "@/components/ScrollingText";
 import TextGenerator from "@/components/TextGenerator";
@@ -11,13 +11,13 @@ const Landing = () => {
 
   return (
     <div className="sm:w-full w-[100vw] h-screen  fixed -z-10  text-white  bg-black lg:bg-black sm:px-0 px-1">
-      <div className=" lg:mt-[6vw] md:mt-[10vh] w-full px-3 flex justify-around items-center md:gap-x-[0vw] lg:gap-x-[2.5vw]  mt-[35vw]  md:px-10 lg:px-0 ">
+      <div className=" lg:mt-[6vw] md:mt-[10vh] w-full px-3 flex justify-around items-center md:gap-x-[0vw] lg:gap-x-[0vw]  mt-[35vw]  md:px-10 lg:px-0 ">
         <h1 className="text lg:text-[6vw] md:text-[7vw] sm:-tracking-[0vw] font-bold sm:font-semibold tracking-tighter text-[7.5vw]">
-          <span>X-actly!</span> {" "}WHAT YOU NEED
+          <span>X-ACTLY!</span> {" "}WHAT YOU NEED
         </h1>
         <Image
-          className="img1 rounded-xl block sm:block lg:w-[15vw] lg:h-[10vw] md:h-[20vw] md:w-[20vw] h-[25vw] w-[35vw] object-cover"
-          src={Doddle}
+          className="img1 rounded-xl block sm:block lg:w-[12vw] lg:h-[10vw] md:h-[20vw] md:w-[20vw] h-[25vw] w-[35vw] object-cover"
+          src={Image1}
           alt="Product_image"
         />
       </div>

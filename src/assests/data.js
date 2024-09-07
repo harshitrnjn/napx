@@ -37,7 +37,7 @@ export const datas = [
         position:"right",
         bgColor: "bg-customBlue",
         textColor:"text-white",
-        src:mFold
+        src:Product3
     },
 
 ]

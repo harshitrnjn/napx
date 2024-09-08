@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import React from "react";
 import Swal from "sweetalert2";
-import Logo from "@/assests/Logo.png"
+import Logo from "@/assests/Logo.png";
 
 const Form = () => {
   const router = useRouter();
@@ -42,50 +42,61 @@ const Form = () => {
   }
   return (
     <div className="h-screen w-full flex justify-center items-center  ">
-      
-
       <form
         onSubmit={handleSubmit}
-        className="flex flex-col sm:gap-y-5 gap-y-[18vh] justify-center items-center sm:rounded-[50px] rounded-[25px] sm:h-[65vh] sm:w-[25vw] w-[90%] h-[75%] bg-white"
+        className="flex flex-col sm:gap-y-5 gap-y-[11vh] justify-center items-center sm:rounded-[50px] rounded-[25px] sm:h-[70vh] sm:w-[25vw] w-[90%] h-[72%] bg-white"
       >
-        <div className="w-full sm:h-[7vw] flex items-center">
-          <h1 className="w-full sm:text-[3.5vw] text-[6vh] text-center tracking-tighter font-semibold text-customBlue">Contact Us</h1>
+        <div className="w-full sm:h-[7vw] h-[18vw] flex items-center">
+          <h1 className="w-full sm:text-[3.5vw] text-[6vh] text-center tracking-tighter font-semibold text-customBlue lg:mb-0 mb-10">
+            Contact Us
+          </h1>
         </div>
-        <div className="w-full h-[14vw] flex flex-col justify-center items-center gap-y-5">
-        <div className="w-[85%] gap-1 flex flex-col">
-          <label htmlFor="name " className="text-customBlue text-xl" >Name</label>
-          <input
-            type="text"
-            name="name"
-            className="name border-b-customBlue border-b-2 outline-none text-lg"
-            required
-            // placeholder="Your name"
-          />
+        <div className="w-full h-[15vw]  flex flex-col justify-center items-center gap-y-5">
+          <div className="w-[85%] gap-1 flex flex-col">
+            <label htmlFor="name " className="text-customBlue text-xl">
+              Name
+            </label>
+            <input
+              type="text"
+              name="name"
+              className="name border-b-customBlue border-b-2 outline-none text-lg"
+              required
+              // placeholder="Your name"
+            />
+          </div>
+          <div className="w-[85%] gap-1 flex flex-col">
+            <label htmlFor="email" className="text-customBlue text-xl">
+              Email
+            </label>
+            <input
+              type="email"
+              name="email"
+              className="email border-b-customBlue border-b-2 outline-none text-lg"
+              required
+              // placeholder="email@example.com"
+            />
+          </div>
+          <div className="w-[85%] gap-1 flex flex-col">
+            <label htmlFor="message" className="text-customBlue text-xl">
+              Message
+            </label>
+            <textarea
+              name="message"
+              required
+              rows="2"
+              className="msg border-b-customBlue border-b-2 outline-none text-lg"
+            ></textarea>
+          </div>
         </div>
-        <div className="w-[85%] gap-1 flex flex-col">
-          <label htmlFor="email" className="text-customBlue text-xl">Email</label>
-          <input
-            type="email"
-            name="email"
-            className="email border-b-customBlue border-b-2 outline-none text-lg"
-            required
-            // placeholder="email@example.com"
-          />
-        </div>
-        <div className="w-[85%] gap-1 flex flex-col">
-          <label htmlFor="message" className="text-customBlue text-xl">Message</label>
-          <textarea
-            name="message"
-            required
-            rows="2"
-            className="msg border-b-customBlue border-b-2 outline-none text-lg"
-           
-          ></textarea>
-        </div>
-        </div>
-        <button type="submit" className=" bg-customBlue py-3 px-5 mt-10 text-white text-lg rounded-full">
+        <button
+          type="submit"
+          className=" bg-customBlue py-3 px-5 mt-10 text-white text-lg rounded-full"
+        >
           Submit Form
         </button>
+        <p className="text-customBlue font-semibold mb-0 sm:mb-5 sm:mt-5 text-lg">
+          "We will get in touch shortly."
+        </p>
       </form>
     </div>
   );

@@ -5,6 +5,7 @@ import part2 from "@/assests/PDF/part2.png";
 import part3 from "@/assests/PDF/part3.png";
 import part4 from "@/assests/PDF/part4.png";
 import part5 from "@/assests/PDF/part5.png";
+import part6 from "@/assests/PDF/part6.png";
 import Image from "next/image";
 import styles from "./catalouge.module.css";
 import { GoArrowLeft } from "react-icons/go";
@@ -35,6 +36,11 @@ const data = [
     id: 5,
     name: "part5",
     src: part5,
+  },
+  {
+    id: 6,
+    name: "part6",
+    src: part6,
   },
 ];
 

@@ -1,7 +1,7 @@
 .background{
     background-image: url('bg.png');
     background-size: contain;
-    height: 400vh;
+    height: 450vh;
     width: 100%;   
     background-attachment: fixed;
 }
